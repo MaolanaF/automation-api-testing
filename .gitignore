@@ -1,0 +1,36 @@
+# Maven
+target/
+
+# IDE
+.vscode/
+/.classpath
+/.project
+/.settings/
+*.iml
+*.ipr
+*.iws
+/.idea/
+
+# Eclipse specific files
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# IntelliJ specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
