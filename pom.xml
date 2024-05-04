@@ -15,8 +15,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -25,6 +25,14 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
     </dependency>
+
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>4.4.0</version> <!-- Versi terbaru saat ini, ganti jika diperlukan -->
+      <scope>test</scope> <!-- Pastikan dependensi ini hanya digunakan untuk pengujian -->
+    </dependency>
+
   </dependencies>
 
   <build>
