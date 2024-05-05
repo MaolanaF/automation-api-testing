@@ -93,7 +93,7 @@ public class GetMethodTest{
         httpRequest.contentType(ContentType.JSON);
 
         // Specify the user ID to retrieve
-        String userId = "60d0fe4f5311236168a109ca";
+        String userId = "60d0fe4f5311236168a109ba";
 
         // Send GET request to retrieve user information by ID
         Response response = httpRequest.request(Method.GET, "/user/" + userId);
@@ -125,7 +125,7 @@ public class GetMethodTest{
         httpRequest.contentType(ContentType.JSON);
 
         // Specify the user ID to retrieve
-        String userId = "60d0fe4f5311236168a109ac";
+        String userId = "60d0fe4f5311236168a109ca";
 
         // Send GET request to retrieve user information by ID
         Response response = httpRequest.request(Method.GET, "/user/" + userId);
