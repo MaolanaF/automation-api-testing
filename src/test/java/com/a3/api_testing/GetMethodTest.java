@@ -3,7 +3,6 @@ package com.a3.api_testing;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.beans.Transient;
 
 import org.junit.Test;
 
@@ -47,7 +46,7 @@ public class GetMethodTest{
         assertTrue("Response body does not contain expected error message", responseBody.contains("APP_ID_MISSING"));
     }
 
-    @test
+    @Test
     public void GetUserWithAppIdInvalid(){
         // Specify the base URL to the RESTful web service
         RestAssured.baseURI = "https://dummyapi.io/data/v1/";
