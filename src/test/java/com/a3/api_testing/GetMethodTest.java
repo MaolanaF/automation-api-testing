@@ -11,7 +11,7 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class GetMethod{
+public class GetMethodTest{
     
     @Test
     public void GetUserWithNoAppId() {
